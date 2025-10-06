@@ -1,0 +1,36 @@
+# Ignore checkpoint files (large model files)
+checkpoints/
+*.pth
+*.pkl
+*.h5
+*.hdf5
+
+# Ignore log files
+*.log
+
+# Ignore cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.temp
