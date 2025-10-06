@@ -1,12 +1,12 @@
 # Ignore checkpoint files (large model files)
-checkpoints/
+checkpoints/*.pth
 *.pth
 *.pkl
 *.h5
 *.hdf5
 
-# Ignore log files
-*.log
+# Keep training logs but ignore other logs
+# *.log  # Commented out to keep training logs
 
 # Ignore cache files
 __pycache__/
